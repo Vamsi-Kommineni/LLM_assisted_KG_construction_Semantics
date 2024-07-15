@@ -8,7 +8,7 @@ import torch
 from huggingface_hub import login
 from dotenv import load_dotenv
 from rdflib import Graph, Namespace
-access_token_read = "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"
+access_token_read = ""
 login(token = access_token_read)
 
 def load_llm(model_id,embedding_model_id):
