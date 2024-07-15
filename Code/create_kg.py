@@ -90,7 +90,7 @@ def write_kg_to_file(kg, output_file):
 
 # Main script
 if __name__ == "__main__":
-    models = ['GPT4', 'GPT3.5', 'Gemini', 'Mixtral_8*22b']
+    models = ['GPT4', 'GPT3.5', 'Gemini', 'Mixtral_8_22b']
     for model_name in models:
         llm_model_path = os.path.join(ner_folder, model_name)
         kg_model_path = os.path.join(kg_folder, model_name)

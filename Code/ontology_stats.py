@@ -3,7 +3,7 @@ from rdflib import Graph, Namespace, RDF, OWL
 from pathlib import Path
 import csv
 
-models = ['GPT4', 'GPT3.5', 'Gemini', 'Mixtral_8*22b']
+models = ['GPT4', 'GPT3.5', 'Gemini', 'Mixtral_8_22b']
 ontology_folder = "../Ontology/"
 
 def count_axioms(ontology_file):

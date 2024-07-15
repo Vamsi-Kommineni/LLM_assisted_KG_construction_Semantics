@@ -8,7 +8,7 @@ from pathlib import Path
 stats_folder_path = "../Stats/"
 Path("../Stats").mkdir(parents=True, exist_ok=True)
 
-models = ['GPT4', 'GPT3.5', 'Gemini', 'Mixtral_8*22b']
+models = ['GPT4', 'GPT3.5', 'Gemini', 'Mixtral_8_22b']
 cq_folder_path = "../RAG_CQ_ans/V1_processed"
 kg_folder_path = "../KG/"
 cq_kg_file = '../CQs/CQs_KG.txt'
